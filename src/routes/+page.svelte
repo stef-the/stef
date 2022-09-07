@@ -1,6 +1,7 @@
 <script>
+    import { onMount } from 'svelte';
+
 	let tick = 0;
-	let helloVar = 'Hello';
 	const hello = [
 		'Hello',
 		'Bonjour',
@@ -17,21 +18,38 @@
 		'Ahlan',
 		'Halløj'
 	];
+    let helloVar = 'Hello';
 
-    let svgFill = '#e5e7eb';
+    const fonts = [
+        'font-[Arial]',
+        'font-[Times]',
+        'font-[Helvetica]',
+        'font-[Courier]',
+        'font-[Verdana]',
+        'font-[Candara]',
+        'font-[Optima]',
+        'font-[Cambria]',
+        'font-[Garamond]',
+        'font-[Monaco]',
+        'font-[Didot]',
+        'font-[Copperplate]',
+    ]
+    let fontVar = '';
+    let svgFill = '#00000000';
 
     const helloFont = [];
 
 	setInterval(() => {
 		helloVar = hello[Math.floor(Math.random() * hello.length)];
+        fontVar = fonts[Math.floor(Math.random() * fonts.length)];
 	}, 1500);
 </script>
 
-<main id="main" class="font-sans bg-gray-200 h-screen overflow-hidden">
-	<div class="grid place-content-center h-screen">
+<main id="main" class="font-sans bg-stone-200 h-screen overflow-hidden">
+	<div id="one" class="grid place-content-center h-screen">
         <a href="#two">
             <div
-                class="transition text-gray-800 grid place-content-center w-96 h-44 cursor-pointer rounded-md"
+                class="transition text-stone-800 grid place-content-center w-96 h-44 cursor-pointer rounded-md"
                 on:click={() => {
                     document.getElementById('main')?.classList.add('h-max');
                     document.getElementById('main')?.classList.remove('h-screen');
@@ -40,16 +58,15 @@
                 on:mouseenter={() => {
                     svgFill = '#1f2937';
                     document.getElementById('svgContainer')?.classList.add('translate-y-2');
-                    document.getElementById('hello')?.classList.add('-translate-y-4');
+                    //document.getElementById('hello')?.classList.add('-translate-y-4');
                 }}
                 on:mouseleave={() => {
-                    svgFill = '#e5e7eb';
+                    svgFill = '#00000000';
                     document.getElementById('svgContainer')?.classList.remove('translate-y-2');
-                    document.getElementById('hello')?.classList.remove('-translate-y-4');
-                    
+                    //document.getElementById('hello')?.classList.remove('-translate-y-4');
                 }}
             >
-                <h1 id="hello" class="text-6xl cursor-inherit text-inherit transition">{helloVar}</h1>
+                <h1 id="hello" class="text-6xl cursor-inherit text-inherit transition {fontVar}">{helloVar}</h1>
                 <div id="svgContainer" class="transition flex justify-center">
                     <svg
                         version="1.1"
