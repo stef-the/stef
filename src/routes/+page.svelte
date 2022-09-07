@@ -107,5 +107,15 @@
             </div>
         </a>
 	</div>
-	<div id="two" class="grid place-content-center h-screen">height</div>
+    <div id="two" class="grid place-content-center h-screen-10 bg-stone-100 ">
+        <div id="nav" class="block">
+            <div class="transition inline-block p-2 hover:text-sky-900">
+                <a href="#one" class="text-2xl">a</a>
+            </div>
+            <div class="transition inline-block p-2 hover:text-sky-900">
+                <a href="#one" class="text-2xl">b</a>
+            </div>
+        </div>
+    </div>
+	<div id="three" class="grid place-content-center h-screen-90">height</div>
 </main>
