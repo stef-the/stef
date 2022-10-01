@@ -111,11 +111,39 @@
 	</div>
 	<div id="two" class="overflow-hidden top-0 w-full grid place-content-center bg-stone-300 ">
 		<div id="nav" class="block">
-			<a href="#jump-proficiencies" class="text-2xl">
+			<a href="#jump-four-j" class="text-2xl">
 				<div
 					class="transition-all inline-block p-2 m-2 h-full hover:bg-stone-400 hover:text-sky-900 hover:p-4 hover:m-0"
 				>
-					Proficiencies
+					Slayer Quests
+				</div>
+			</a>
+			<a href="#jump-five-j" class="text-2xl">
+				<div
+					class="transition-all inline-block p-2 m-2 h-full hover:bg-stone-400 hover:text-sky-900 hover:p-4 hover:m-0"
+				>
+					Mining
+				</div>
+			</a>
+			<a href="#jump-six-j" class="text-2xl">
+				<div
+					class="transition-all inline-block p-2 m-2 h-full hover:bg-stone-400 hover:text-sky-900 hover:p-4 hover:m-0"
+				>
+					Weapons
+				</div>
+			</a>
+			<a href="#jump-seven-j" class="text-2xl">
+				<div
+					class="transition-all inline-block p-2 m-2 h-full hover:bg-stone-400 hover:text-sky-900 hover:p-4 hover:m-0"
+				>
+					Miscellaneous
+				</div>
+			</a>
+			<a href="#jump-eight-j" class="text-2xl">
+				<div
+					class="transition-all inline-block p-2 m-2 h-full hover:bg-stone-400 hover:text-sky-900 hover:p-4 hover:m-0"
+				>
+					More Misc
 				</div>
 			</a>
 		</div>
