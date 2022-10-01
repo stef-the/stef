@@ -61,7 +61,7 @@
 <title>Skyblock Overhaul Update List</title>
 <main id="main" class="font-sans bg-stone-200 h-screen overflow-hidden">
 	<div id="one" class="grid place-content-center h-screen">
-		<a href="#jump-four-j">
+		<a href="#four">
 			<div
 				class="transition-all text-stone-800 grid place-content-center w-96 h-44 cursor-pointer rounded-md"
 				on:click={() => {
@@ -111,35 +111,35 @@
 	</div>
 	<div id="two" class="overflow-hidden top-0 w-full grid place-content-center bg-stone-300 ">
 		<div id="nav" class="block">
-			<a href="#jump-four-j" class="text-2xl">
+			<a href="#four" class="text-2xl">
 				<div
 					class="transition-all inline-block p-2 m-2 h-full hover:bg-stone-400 hover:text-sky-900 hover:p-4 hover:m-0"
 				>
 					Slayer Quests
 				</div>
 			</a>
-			<a href="#jump-five-j" class="text-2xl">
+			<a href="#five" class="text-2xl">
 				<div
 					class="transition-all inline-block p-2 m-2 h-full hover:bg-stone-400 hover:text-sky-900 hover:p-4 hover:m-0"
 				>
 					Mining
 				</div>
 			</a>
-			<a href="#jump-six-j" class="text-2xl">
+			<a href="#six" class="text-2xl">
 				<div
 					class="transition-all inline-block p-2 m-2 h-full hover:bg-stone-400 hover:text-sky-900 hover:p-4 hover:m-0"
 				>
 					Weapons
 				</div>
 			</a>
-			<a href="#jump-seven-j" class="text-2xl">
+			<a href="#seven" class="text-2xl">
 				<div
 					class="transition-all inline-block p-2 m-2 h-full hover:bg-stone-400 hover:text-sky-900 hover:p-4 hover:m-0"
 				>
 					Miscellaneous
 				</div>
 			</a>
-			<a href="#jump-eight-j" class="text-2xl">
+			<a href="#eight" class="text-2xl">
 				<div
 					class="transition-all inline-block p-2 m-2 h-full hover:bg-stone-400 hover:text-sky-900 hover:p-4 hover:m-0"
 				>
@@ -148,11 +148,11 @@
 			</a>
 		</div>
 	</div>
-	<div id="jump-four-j" class="h-screen-20" />
+	<div id="four" class="h-screen-20" />
 	<div id="four-j" class="h-screen-10">
 		<div class="block text-center mb-10 text-4xl">Slayer Quests</div>
 	</div>
-	<div id="four" class="grid place-content-center">
+	<div id="four-a" class="grid place-content-center">
 		<img src="https://media.discordapp.net/attachments/796158096463888404/1022999844824027166/unknown.png" alt="Enderman Slayer">
 
 		<br>- Added Absoloute Enderpearl
@@ -218,12 +218,12 @@
 		<br>- Changed Hamster Wheel
 		<div class="pb-4" />
 	</div>
-	<div id="jump-five-j" class="h-screen-20" />
+	<div id="five" class="h-screen-20" />
 	<div id="five-j" class="h-screen-10">
 		<div class="block text-center mb-10 text-4xl">Mining</div>
 	</div>
 	<div class="grid place-content-center"><img src="https://media.discordapp.net/attachments/796158096463888404/1022999845201522798/unknown.png" alt="Crystal Hollows"></div>
-	<div id="five" class="grid place-content-center">
+	<div id="five-a" class="grid place-content-center">
 		<br>- Added Amber Piece
 		<br>- Added Amber, Amethyst, Jasper, Ruby and Sapphire Power Scrolls
 		<br>- Added Ammonite Helix
@@ -308,12 +308,12 @@
 		<br>- Added Mithril Powder
 		<div class="pb-4" />
 	</div>
-	<div id="jump-six-j" class="h-screen-20" />
+	<div id="six" class="h-screen-20" />
 	<div id="six-j" class="h-screen-10">
 		<div class="block text-center mb-10 text-4xl">Weapons</div>
 	</div>
 	<div class="grid place-content-center"><img src="https://media.discordapp.net/attachments/796158096463888404/1022999846292050032/unknown.png" alt="Additions"></div>
-	<div id="six" class="grid place-content-center">
+	<div id="six-a" class="grid place-content-center">
 		<br>- Thick Wooden Sword
 		<br>- Warped Aspect of the Void
 		<br>- Artisanal Shortbow
@@ -376,12 +376,12 @@
 		<br>- Scylla 		
 		<div class="pb-4" />
 	</div>
-	<div id="jump-seven-j" class="h-screen-20" />
+	<div id="seven" class="h-screen-20" />
 	<div id="seven-j" class="h-screen-10">
 		<div class="block text-center mb-10 text-4xl">Misc</div>
 	</div>
 	<div class="grid place-content-center"><img src="https://media.discordapp.net/attachments/796158096463888404/1022999846292050032/unknown.png" alt="New Items"></div>
-	<div id="seven" class="grid place-content-center">
+	<div id="seven-a" class="grid place-content-center">
 		<br>- Added Rock Gemstone Powerstone
 		<br>- Added Pure Mithril Power Stone
 		<br>- Added Petrified Starfall Powerstone
@@ -439,20 +439,20 @@
 		<div class="pb-4" />
 	</div>
 
-	<div id="jump-eight-j" class="h-screen-20" />
+	<div id="eight" class="h-screen-20" />
 	<div id="eight-j" class="h-screen-10">
 		<div class="block text-center mb-10 text-4xl">Other Misc</div>
 	</div>
 	<div class="grid place-content-center"><img src="https://media.discordapp.net/attachments/796158096463888404/1022999845914542120/unknown.png" alt="Changes & Additions"></div>
-	<div id="eight" class="grid place-content-center">
+	<div id="eight-a" class="grid place-content-center">
 		<br>- Revamped Emerald Blade 
-		<br>&nbsp&nbsp&nbsp&nbsp -> Added an extra two versions for a 'Broke Emerald Blade', and a 'Rich Emerald Blade'.
+		<br>&nbsp&nbsp&nbsp&nbsp + Added an extra two versions for a 'Broke Emerald Blade', and a 'Rich Emerald Blade'.
 		<br>&nbsp&nbsp&nbsp&nbsp The ‘Broke Emerald Blade’ texture will apply if there is less than 200 million coins in the purse.
 		<br>&nbsp&nbsp&nbsp&nbsp The 'Default Emerald Blade' texture will apply if there is at least 550 million coins in the purse.
 		<br>&nbsp&nbsp&nbsp&nbsp The 'Rich Emerald Blade' texture will apply if there is at least 2 BILLION coins or more in the purse.
 		<br>
 		<br>- Revamped Midas' Sword and Midas' Staff
-		<br>&nbsp&nbsp&nbsp&nbsp -> added an extra FIVE new textures on top of the revamped one. Here's how they will appear according to how much was paid for the Midas' Sword: 
+		<br>&nbsp&nbsp&nbsp&nbsp + added an extra FIVE new textures on top of the revamped one. Here's how they will appear according to how much was paid for the Midas' Sword: 
 		<br>&nbsp&nbsp&nbsp&nbsp 1. The lowest tier of Midas' Sword will only appear if it was paid with anything less than one million coins. 
 		<br>&nbsp&nbsp&nbsp&nbsp 2. The second tier of Midas' Sword will Appear if it was paid with at least 10 million. 
 		<br>&nbsp&nbsp&nbsp&nbsp 3. The third tier of Midas' Sword will appear if it was paid with at least 20 million coins.
