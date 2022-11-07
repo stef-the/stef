@@ -443,7 +443,7 @@
 	<div id="eight-j" class="h-screen-10">
 		<div class="block text-center mb-10 text-4xl">Other Misc</div>
 	</div>
-	<div class="grid place-content-center"><img src="https://media.discordapp.net/attachments/796158096463888404/1022999845914542120/unknown.png" alt="Changes & Additions"></div>
+	<div class="grid place-content-center"><img height="5" src="https://media.discordapp.net/attachments/796158096463888404/1022999845914542120/unknown.png" alt="Changes & Additions"></div>
 	<div id="eight-a" class="grid place-content-center">
 		<br>- Revamped Emerald Blade 
 		<br>&nbsp&nbsp&nbsp&nbsp + Added an extra two versions for a 'Broke Emerald Blade', and a 'Rich Emerald Blade'.
