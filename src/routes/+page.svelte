@@ -121,10 +121,10 @@
 		</div>
 	</div>
 	<div id="jump-proficiencies" class="h-screen-20" />
-	<div id="three" class="h-screen-10">
+	<div id="onet" class="h-screen-10">
 		<div class="block text-center mb-10 text-4xl">Proficiencies</div>
 	</div>
-	<div id="four" class="grid place-content-center h-screen-70">
+	<div id="onec" class="grid place-content-center h-screen-70">
 		<div id="blockContainer" class="block">
 			<div class="cursor-pointer transition-all inline-block bg-stone-300 h-64 w-44 text-2xl m-2">
 				<div class="grid h-full w-full">
@@ -163,6 +163,12 @@
 				</div>
 			</div>
 		</div>
+	</div>	
+	<div id="twot" class="h-screen-10">
+		<div class="block text-center mb-10 text-4xl">Proficiencies</div>
 	</div>
-	<div id="three" class="grid place-content-center h-screen" />
+	<div id="twoc" class="grid place-content-center h-screen-70">
+
+	</div>
+	<div class="h-screen-10" />
 </main>
